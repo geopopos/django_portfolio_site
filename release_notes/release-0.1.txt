@@ -2,3 +2,13 @@ Changes (09-28-2019):
 I don't really know how one should format release notes, or if they should even be included in a repo
 
 - push initial portfolio site to remote master
+
+
+ToDo:
+[] add Pages model
+   this will be to allow the admin to create pages. the pages will have a:
+   - title
+   - body (html format)
+[] update blog to contain a WYSWIG editor
+[x] update project to have carousel
+   [] allow carousel to contain images or videos

@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from projects.models import Project
+from projects.models import Project, Image
+from django.db.models import OuterRef, Subquery
 
 def project_index(request):
     projects = Project.objects.all()
